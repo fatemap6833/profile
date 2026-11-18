@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>개인 프로파일</title>
+<style>
+  :root {
+    --bg: #f5f6fa;
+    --card-bg: #ffffff;
+    --text: #1f2430;
+    --sub: #6b7280;
+    --accent: #4f46e5;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", "Pretendard", "Apple SD Gothic Neo", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 40px 20px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  header a {
+    font-size: 13px;
+    color: var(--sub);
+    text-decoration: none;
+  }
+  .panel {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 36px 32px;
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
+  }
+  .avatar {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 18px;
+  }
+  .panel h1 {
+    font-size: 22px;
+    margin: 0 0 8px;
+  }
+  .panel p.intro {
+    color: var(--sub);
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0 0 24px;
+  }
+  .github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #1f2430;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-size: 14px;
+  }
+  .github-btn:hover {
+    opacity: 0.9;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="https://fatemap6833.github.io/">← 실습 자료 모음으로</a>
+</header>
+
+<div class="panel">
+  <div class="avatar">🙂</div>
+  <h1>fatemap6833</h1>
+  <p class="intro">클로드 코드로 다양한 실습을 하며 배우고 있습니다.</p>
+  <a class="github-btn" href="https://github.com/fatemap6833" target="_blank" rel="noopener">
+    GitHub
+  </a>
+</div>
+
+</body>
+</html>
